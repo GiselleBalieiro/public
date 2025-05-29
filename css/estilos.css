@@ -1,0 +1,173 @@
+
+
+.borda-verde {
+    border: 5px solid green;
+}
+
+.borda-vermelha {
+    border: 3px solid red;
+}
+
+body {
+    background: linear-gradient(135deg, #f0f0f0, #dfe9f3);
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #333;
+}
+
+p.frase {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    list-style: none;
+    padding: 0;
+}
+
+.informacoes li {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #555;
+}
+
+textarea.campo-digitacao {
+    width: 100%;
+    min-height: 100px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1rem;
+    resize: none;
+}
+
+#botao-reiniciar {
+    margin: 20px 0;
+}
+
+ul li {
+    font-size: 0.95rem;
+    margin: 5px 0;
+}
+
+section.placar {
+    
+}
+
+section.placar h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.placar {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.placar h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.placar table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.placar thead {
+    background-color: #007bff;
+    color: white;
+}
+
+.placar th, .placar td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.placar th:first-child {
+    border-top-left-radius: 12px;
+}
+
+.placar th:last-child {
+    border-top-right-radius: 12px;
+}
+
+.placar tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.placar tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+.placar .btn-remover {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #dc3545;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.placar .btn-remover:hover {
+    color: #a71d2a;
+}
+
+table {
+    margin-top: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+    font-weight: 500;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+.btn-floating {
+    transition: transform 0.3s ease;
+}
+
+.btn-floating:hover {
+    transform: scale(1.1);
+}

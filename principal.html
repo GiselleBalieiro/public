@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício</title>
+    <link rel="stylesheet" href="css/libs/materialize.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="container" style="display: flex; justify-content: center;
+        align-items: center; flex-direction: column; margin-top: 20px;">
+        <div >
+            <h1>Teste de digitação</h1>
+            <p class="frase">Esse é um teste de digitação! Você consegue finalizar antes do tempo acabar?</p>
+        </div>
+        <ul class="informacoes">
+            <li><i style="vertical-align: middle;" class=" small material-icons">description</i> <span id="tamanho-frase">0</span> palavras</li>
+            <li><i style="vertical-align: middle;"  class="material-icons">access_time</i> <span id="tempo-restante">3</span> segundos</li>
+        </ul>
+
+        <textarea id="campo-digitacao" class="campo-digitacao" placeholder="Comece a digitar aqui..."></textarea>
+
+        <button id="botao-reiniciar" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">restore</i></button>
+
+        <ul>
+            <li><span id="contador-caracteres">0</span> caracteres</li>
+            <li><span id="contador-palavras">0</span>  palavras</li>
+        </ul>
+
+        <section class="placar">
+            <h3>Placar</h3>
+            <table class="centered bordered">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>N° de Palavras</th>
+                        <th>Remover</th>
+                    </tr>
+                </thead>
+                <tbody id="placar">
+
+                </tbody>
+        </section>
+    </div>    
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
