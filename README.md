@@ -33,11 +33,11 @@ Criar uma aplicação simples de **teste de digitação**, onde o usuário deve 
 ## Aprendizados
 Durante o desenvolvimento deste projeto, aprimorei diversas habilidades fundamentais para o front-end:
 
-✅ Manipulação eficiente do DOM utilizando jQuery
-✅ Controle e gestão de eventos: click, focus, one, entre outros
-✅ Implementação de cronômetros com setInterval e clearInterval
-✅ Atualização dinâmica de elementos HTML com text(), val(), e attr()
-✅ Criação e manipulação de placares dinâmicos com tabelas
-✅ Implementação de lógica para contagem de caracteres e palavras
+✅ Manipulação eficiente do DOM utilizando jQuery 
+✅ Controle e gestão de eventos: click, focus, one, entre outros 
+✅ Implementação de cronômetros com setInterval e clearInterval 
+✅ Atualização dinâmica de elementos HTML com text(), val(), e attr() 
+✅ Criação e manipulação de placares dinâmicos com tabelas 
+✅ Implementação de lógica para contagem de caracteres e palavras 
 
 
